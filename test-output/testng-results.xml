@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstSuite" duration-ms="10297" started-at="2017-09-20T08:56:31Z" finished-at="2017-09-20T08:56:41Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="10297" started-at="2017-09-20T08:56:31Z" finished-at="2017-09-20T08:56:41Z">
+      <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@31a5c39e]" name="setUp" is-config="true" duration-ms="9555" started-at="2017-09-20T14:26:31Z" finished-at="2017-09-20T14:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyUWTasksForCloser()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@31a5c39e]" name="VerifyUWTasksForCloser" duration-ms="724" started-at="2017-09-20T14:26:41Z" finished-at="2017-09-20T14:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUWTasksForCloser -->
+      </class> <!-- com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter -->
+    </test> <!-- test1 -->
+  </suite> <!-- FirstSuite -->
+</testng-results>

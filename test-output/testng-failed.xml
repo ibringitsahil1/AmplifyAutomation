@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirstSuite]">
+  <listeners>
+    <listener class-name="com.test.automation.uiAutomation.customListner.Listener"/>
+    <listener class-name="com.test.automation.uiAutomation.customListner.RetryListener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.amplify.test.suite1.AddLoanTest">
+        <methods>
+          <include name="AddNewLoan1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amplify.test.suite1.AddLoanTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [FirstSuite] -->

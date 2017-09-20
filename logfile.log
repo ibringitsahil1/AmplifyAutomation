@@ -1,0 +1,252 @@
+2017-08-29 20:43:52,089 INFO  [Log1] Test Case 1 Execution Begins 
+2017-08-29 20:47:19,001 INFO  [Log1] Test opening of Login Pages 
+2017-08-29 20:47:19,580 INFO  [Log1] test SuccessFull login 
+2017-08-29 20:47:54,658 INFO  [Log1] Exception in Test Case 3org.openqa.selenium.NoSuchElementException: Unable to locate element: .form\-control
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.jssEdRmz9fyz, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=8584.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5fec3ec8-f1ed-46de-956a-0e4189d02cb2
+*** Element info: {Using=class name, value=form-control} 
+2017-08-31 19:22:16,479 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 19:24:29,019 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: Loan Overvie (tried for 120 second(s) with 500 MILLISECONDS interval) 
+2017-08-31 19:53:16,249 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 20:00:31,310 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: #mxui_widget_EnumSelect_0
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.pPPHnfaj2JeR, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3344.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: bbc31e8d-cfb4-4be0-b8fa-cd8316ebe470
+*** Element info: {Using=id, value=mxui_widget_EnumSelect_0} 
+2017-08-31 20:24:25,495 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 20:43:54,785 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 20:45:15,885 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='mx-name-actionButton1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.Rk7Ct8JX4Nw3, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=9968.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 7b6d87f3-6232-4120-b086-d51fb39be1cc
+*** Element info: {Using=xpath, value=//button[@class='mx-name-actionButton1']} 
+2017-08-31 20:53:27,244 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 20:59:01,015 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-referenceselector mx-name-referenceSelector4']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.tb3M8ifgoRuk, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5988.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 14fc1783-75b3-4b98-8656-c65b4e425ddd
+*** Element info: {Using=xpath, value=//div[@class='mx-referenceselector mx-name-referenceSelector4']} 
+2017-08-31 20:59:25,410 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 21:08:58,487 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 21:10:02,173 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.RUsgw3NVZX4S, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2756.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: bb74e9b3-7bd5-4256-bbb5-5ca2789e338a
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-08-31 21:10:43,973 INFO  [Log1] Test Add New Loan1 Starts 
+2017-08-31 21:11:46,586 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.8NvKWMz23kqs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=7820.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 399b2171-e5c2-4e10-8afe-2afa18c1b191
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 18:21:57,623 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 18:23:15,520 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.juIWfL2mfe5W, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=1344.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: e1da4cca-0a45-4167-af03-9714b095280f
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 18:25:20,673 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 18:26:26,277 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.C8YauOpvCWFY, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10544.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: acc9b042-b721-46b0-b4a6-1662a3b80b4f
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 18:50:40,164 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 18:51:56,943 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: Add New Loan
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.HsMyDxGuA8wT, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10780.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 7d7582b3-d42e-401c-8f28-0b47ff284ff8
+*** Element info: {Using=partial link text, value=Add New Loan} 
+2017-09-01 18:55:14,804 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 18:56:27,314 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.x4mVfY4K2o0z, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=8804.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c3eb2bc-676c-4bdd-9f08-b48a66d85bc0
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 18:58:25,730 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 18:59:36,794 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.jSkySHL7Ejvw, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=8220.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 58e943f6-b8bc-4841-bad8-9777ce105e21
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 19:10:06,178 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:18:18,530 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:27:41,006 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:28:55,629 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 681.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.1z4WrYxQrPOr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=11096.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42d1c103-e75a-4ff8-bbb0-759f50d6dabe 
+2017-09-01 19:29:02,287 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(.,'Loan Overview')] (tried for 80 second(s) with 500 MILLISECONDS interval) 
+2017-09-01 19:29:34,824 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:30:55,921 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(.,'Loan Overview')] (tried for 80 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.lq7sqwucVRmZ, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=11280.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 82dbface-192e-46d3-bce3-4d8bddf9af87 
+2017-09-01 19:32:36,063 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:34:28,187 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 681.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.DgXF43ULjmwR, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=11044.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8431e69e-dc6d-499a-afdf-26ee85280ea9 
+2017-09-01 19:35:32,531 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:36:40,521 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.vs7blEeGhm5t, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10904.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ed37df01-d7af-4298-9349-0bda9f8c39cd
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 19:37:18,988 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:38:32,303 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.lKSC2wKziKwp, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=2060.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: efe5c5e9-50bb-48f3-9849-8149afc36711
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-01 19:40:38,192 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:48:14,429 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 19:50:28,653 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 681.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.FdStBneG4yR8, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=11236.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 15c4d018-4ec2-4cb3-9559-7fa196dc6ad0 
+2017-09-01 19:51:08,767 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:03:02,465 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:06:58,865 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:08:17,346 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='mxui_widget_ReferenceSelector_8']/div/select
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.QnjV8g8jir2v, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=12108.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ac313d02-12d5-4771-ab0d-b6882382ee2b
+*** Element info: {Using=xpath, value=//div[@id='mxui_widget_ReferenceSelector_8']/div/select} 
+2017-09-01 20:08:50,312 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:41:15,385 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:46:59,987 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:48:31,227 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.yiI3s6oTpfB1, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10512.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b08c50e5-8638-40ac-b8e6-f82e215a639f 
+2017-09-01 20:48:53,375 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 20:52:30,302 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 21:01:29,077 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 21:02:46,266 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.QqCbc85yyAHv, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=912.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43f8fa3b-5662-4864-9c1d-5dfe2f043a89 
+2017-09-01 21:03:11,326 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-01 21:17:14,733 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 15:47:03,042 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 15:48:16,711 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mx-name-textBox2']/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.yG3nj8IIhAYg, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6624.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: a6c99265-200a-4bb6-8ac5-1d53ffab7cc3
+*** Element info: {Using=xpath, value=//div[@class='mx-name-textBox2']/input} 
+2017-09-06 15:48:46,477 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 15:53:16,638 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.DcyiNKgK1zPM, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=12460.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1cc58376-f7ad-45da-b07c-c69efc03aada 
+2017-09-06 17:02:21,597 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 17:07:43,115 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 17:42:19,370 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 17:44:32,613 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.lbhgijUsxZ5C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=10508.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 748b52b4-4848-4a36-8cd1-96b35652d808 
+2017-09-06 17:45:24,869 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 18:02:46,537 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 18:03:28,370 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.XWLzTP7aTWpe, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=14160.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5694c87d-2bbf-4d48-a41d-e8163c7fa0e1 
+2017-09-06 18:05:01,546 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.40azDM9tzMHK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13976.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8b647267-1b4f-4e51-901a-2cdfae185979 
+2017-09-06 18:05:24,080 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 18:20:20,136 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.sF66z2CQf3jK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=13468.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4c9986af-243a-47d2-8954-8063803c303c 
+2017-09-06 19:55:26,503 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 20:02:30,083 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 20:10:34,857 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-06 20:12:00,469 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (766.6916809082031, 768.4500122070312) is out of bounds of viewport width (1366) and height (659)
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAHIL~1.SIN\AppData\Local\Temp\rust_mozprofile.SRNzNutxNntl, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=11072.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: a849ea9a-6b37-4237-a953-1ec7f93c2295 
+2017-09-06 20:16:00,050 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-08 17:14:46,197 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-08 17:21:14,847 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-08 17:29:07,536 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-08 17:47:22,429 INFO  [Log1] Test Add New Loan1 Starts 
+2017-09-08 17:48:49,943 INFO  [Log1] Exception in AddNewLoan1 Test Case org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 86131342873460738
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.0', revision: '8def36e068', time: '2017-08-10T23:00:22.093Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown 
+2017-09-08 17:49:21,908 INFO  [Log1] Test Add New Loan1 Starts 
