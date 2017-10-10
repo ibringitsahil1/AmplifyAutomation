@@ -7,7 +7,7 @@
 	</listeners>
 	<test name="Regression Suite">
 		<classes>
-<!-- 			<class name="com.amplify.test.suite1.VerifyLogin">
+<!---1 			<class name="com.amplify.test.suite1.VerifyLogin">
 			 <methods>
 			 <include name="TestCase_1"></include>
 			<include name="TestCase_2"></include>
