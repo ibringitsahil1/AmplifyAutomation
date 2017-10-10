@@ -5,7 +5,7 @@
 	<listener class-name="com.test.automation.uiAutomation.customListner.Listener"></listener>
 	<listener class-name="com.test.automation.uiAutomation.customListner.RetryListener"></listener>
 	</listeners>
-	<test name="test1">
+	<test name="Regression Suite">
 		<classes>
 <!-- 			<class name="com.amplify.test.suite1.VerifyLogin">
 			 <methods>

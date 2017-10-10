@@ -80,9 +80,10 @@ public class Listener extends Functions implements ITestListener{
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss"); //to format Date/time
 			
 			String methodName = arg0.getName();
-
-			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			
 			try {
+				
+				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/";
 				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
 				
@@ -91,6 +92,8 @@ public class Listener extends Functions implements ITestListener{
 				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
 				
 			} catch (IOException e) {
+				e.printStackTrace();
+			}catch (Exception e) {
 				e.printStackTrace();
 			}
 		}

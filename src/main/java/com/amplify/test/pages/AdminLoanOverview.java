@@ -62,8 +62,8 @@ public class AdminLoanOverview  extends Functions{
 		fetchLoans2();
 	}
 	public void fetchLoans2() throws Exception{
-		if(initWeb("mxui_widget_Button_20").isEnabled()){
-			initWeb("mxui_widget_Button_20").click();
+		if(initWeb("mxui_widget_Button_20",driver).isEnabled()){
+			initWeb("mxui_widget_Button_20",driver).click();
 			Thread.sleep(10000);
 			List<WebElement> rowdata1 =funcMultipleXpath("//*[contains(@id,'mxui_widget_DataGrid_']/div[3]/div/table[2]/tbody/tr");
 			statusColumn=new ArrayList<WebElement>(rowdata1.size());

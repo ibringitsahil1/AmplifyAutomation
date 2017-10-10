@@ -16,11 +16,11 @@ import com.amplify.test.util.ExcelUtils;
 import com.amplify.test.util.Log1;
 
 public class VerifyLogin {
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public static Functions func;
 	public static boolean Result=false;
 	
-	Login login=new Login();
+	Login login=new Login(driver);
 	AdminHomePage adminHome =new AdminHomePage();
 	AdminLoanOverview adminLoanOverview=new AdminLoanOverview();
 	 String TestCaseName="Verify Login";

@@ -7,12 +7,12 @@
   </listeners>
   <test name="test1(failed)">
     <classes>
-      <class name="com.amplify.test.suite1.AddLoanTest">
+      <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
         <methods>
-          <include name="AddNewLoan1"/>
           <include name="setUp"/>
+          <include name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter"/>
         </methods>
-      </class> <!-- com.amplify.test.suite1.AddLoanTest -->
+      </class> <!-- com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter -->
     </classes>
   </test> <!-- test1(failed) -->
 </suite> <!-- Failed suite [FirstSuite] -->

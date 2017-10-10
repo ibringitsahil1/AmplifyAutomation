@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.test.automation.uiAutomation.customListner.WebEventListener;
 
-public class Functions<WebElements> {
+public class Functions {
 	public static WebDriver driver;
     
 	public static Properties properties;
@@ -31,6 +31,10 @@ public class Functions<WebElements> {
 	
 	public WebEventListener eventListener;
 	public EventFiringWebDriver e_driver;
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
 
 		//Reading ElementsProperties
 		public void readProperties() throws Exception{
@@ -77,7 +81,7 @@ public class Functions<WebElements> {
 			String url=properties.getProperty("url");
 			driver.get(url);
 		}
-		public WebElement initWeb(String id) {
+		public WebElement initWeb(String id,WebDriver driver) {
 			return driver.findElement(By.id(id));
 
 		}
@@ -121,7 +125,7 @@ public class Functions<WebElements> {
 		}
 		//Click
 		public void clickFunc(String click){
-			 initWeb(click).click();
+			 initWeb(click,driver).click();
 		}
 		//ZoomOut
 		public void zoomOutFunc(

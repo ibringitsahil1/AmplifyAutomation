@@ -10,7 +10,7 @@ import com.amplify.test.functions.Functions;
 public class UnderwriterHomePage extends Functions{
 	
 	@FindBy(xpath="//a[contains(.,'Loan Overview')]")
-	WebElement waitForLoanOver;
+	WebElement LoanOverviewTab;
 	
 	@FindBy(partialLinkText="Loan Overvie")
 	WebElement clickOnLoanOver;
@@ -21,9 +21,8 @@ public class UnderwriterHomePage extends Functions{
 	}
 	
 	public void clickLoanOverview(){
-		waitForElement(driver, 100, waitForLoanOver);
-		clickOnLoanOver.click();
-		
+		waitForElement(driver, 100, LoanOverviewTab);
+		clickOnLoanOver.click();	
 	}
-
+	
 }

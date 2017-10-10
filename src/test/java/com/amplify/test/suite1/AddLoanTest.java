@@ -18,7 +18,7 @@ public class AddLoanTest {
 	public static Functions func;
 	public static boolean Result=false;
 	
-	Login login=new Login();
+	Login login=new Login(driver);
 	AdminHomePage adminHome =new AdminHomePage();
 	AdminLoanOverview adminLoanOverview=new AdminLoanOverview();	
 	AddNewLoan addNewLoan=new AddNewLoan();

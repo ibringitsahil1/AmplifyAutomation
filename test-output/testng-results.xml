@@ -1,20 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[Test Starts :test1]]>
+    </line>
+    <line>
+      <![CDATA[**************Starting VerifyLoginThroughUnderwriterUserRole Test*****************]]>
+    </line>
+    <line>
+      <![CDATA[Login with Underwriter]]>
+    </line>
+    <line>
+      <![CDATA[Click Login Button]]>
+    </line>
+    <line>
+      <![CDATA[*************Ending VerifyLoginThroughUnderwriterUserRole Test]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[**************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************]]>
+    </line>
+    <line>
+      <![CDATA[Click Loan Overview Tab]]>
+    </line>
+    <line>
+      <![CDATA[Click Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Enter Loan in Loan Number Search Box]]>
+    </line>
+    <line>
+      <![CDATA[Click Second Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Select Loan in Loan Overview Tab]]>
+    </line>
+    <line>
+      <![CDATA[Click Create Checklist Button]]>
+    </line>
+    <line>
+      <![CDATA[Get Popup Title]]>
+    </line>
+    <line>
+      <![CDATA[close Popup window]]>
+    </line>
+    <line>
+      <![CDATA[Select Loan in Loan Overview Tab]]>
+    </line>
+    <line>
+      <![CDATA[clickViewLoanButton]]>
+    </line>
+    <line>
+      <![CDATA[clickTasksTabinViewLoanPopup]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[**************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************]]>
+    </line>
+    <line>
+      <![CDATA[*************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[**************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************]]>
+    </line>
+    <line>
+      <![CDATA[*************Ending VerifyCompletionOfUWTaskForUnderwriter Test]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[**************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************]]>
+    </line>
+    <line>
+      <![CDATA[*************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="FirstSuite" duration-ms="10297" started-at="2017-09-20T08:56:31Z" finished-at="2017-09-20T08:56:41Z">
+  <suite name="FirstSuite" duration-ms="119613" started-at="2017-10-10T08:43:22Z" finished-at="2017-10-10T08:45:22Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="10297" started-at="2017-09-20T08:56:31Z" finished-at="2017-09-20T08:56:41Z">
+    <test name="test1" duration-ms="119613" started-at="2017-10-10T08:43:22Z" finished-at="2017-10-10T08:45:22Z">
       <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@31a5c39e]" name="setUp" is-config="true" duration-ms="9555" started-at="2017-09-20T14:26:31Z" finished-at="2017-09-20T14:26:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="setUp" is-config="true" duration-ms="6090" started-at="2017-10-10T14:13:22Z" finished-at="2017-10-10T14:13:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyUWTasksForCloser()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@31a5c39e]" name="VerifyUWTasksForCloser" duration-ms="724" started-at="2017-09-20T14:26:41Z" finished-at="2017-09-20T14:26:41Z">
+        <test-method status="PASS" signature="VerifyLoginThroughUnderwriterUserRole()[pri:0, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="VerifyLoginThroughUnderwriterUserRole" duration-ms="52454" started-at="2017-10-10T14:13:28Z" finished-at="2017-10-10T14:14:21Z">
           <reporter-output>
+            <line>
+              <![CDATA[**************Starting VerifyLoginThroughUnderwriterUserRole Test*****************]]>
+            </line>
+            <line>
+              <![CDATA[Login with Underwriter]]>
+            </line>
+            <line>
+              <![CDATA[Click Login Button]]>
+            </line>
+            <line>
+              <![CDATA[*************Ending VerifyLoginThroughUnderwriterUserRole Test]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- VerifyUWTasksForCloser -->
+        </test-method> <!-- VerifyLoginThroughUnderwriterUserRole -->
+        <test-method status="PASS" signature="VerifyOpeningOfUWTasksForUnderwriter()[pri:1, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="VerifyOpeningOfUWTasksForUnderwriter" duration-ms="11622" started-at="2017-10-10T14:14:21Z" depends-on-methods="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter.VerifyLoginThroughUnderwriterUserRole" finished-at="2017-10-10T14:14:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[**************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************]]>
+            </line>
+            <line>
+              <![CDATA[Click Loan Overview Tab]]>
+            </line>
+            <line>
+              <![CDATA[Click Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Enter Loan in Loan Number Search Box]]>
+            </line>
+            <line>
+              <![CDATA[Click Second Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Select Loan in Loan Overview Tab]]>
+            </line>
+            <line>
+              <![CDATA[Click Create Checklist Button]]>
+            </line>
+            <line>
+              <![CDATA[Get Popup Title]]>
+            </line>
+            <line>
+              <![CDATA[close Popup window]]>
+            </line>
+            <line>
+              <![CDATA[Select Loan in Loan Overview Tab]]>
+            </line>
+            <line>
+              <![CDATA[clickViewLoanButton]]>
+            </line>
+            <line>
+              <![CDATA[clickTasksTabinViewLoanPopup]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyOpeningOfUWTasksForUnderwriter -->
+        <test-method status="PASS" signature="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter()[pri:2, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter" duration-ms="12935" started-at="2017-10-10T14:14:33Z" finished-at="2017-10-10T14:14:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[**************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************]]>
+            </line>
+            <line>
+              <![CDATA[*************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter -->
+        <test-method status="PASS" signature="VerifyCompletionOfUWTaskForUnderwriter()[pri:3, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="VerifyCompletionOfUWTaskForUnderwriter" duration-ms="13578" started-at="2017-10-10T14:14:47Z" depends-on-methods="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter.VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter" finished-at="2017-10-10T14:15:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[**************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************]]>
+            </line>
+            <line>
+              <![CDATA[*************Ending VerifyCompletionOfUWTaskForUnderwriter Test]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCompletionOfUWTaskForUnderwriter -->
+        <test-method status="PASS" signature="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter()[pri:4, instance:com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter@7d907bac]" name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter" duration-ms="20976" started-at="2017-10-10T14:15:01Z" finished-at="2017-10-10T14:15:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[**************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************]]>
+            </line>
+            <line>
+              <![CDATA[*************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter -->
       </class> <!-- com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter -->
     </test> <!-- test1 -->
   </suite> <!-- FirstSuite -->
