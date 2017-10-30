@@ -38,14 +38,14 @@ public class Functions {
 
 		//Reading ElementsProperties
 		public void readProperties() throws Exception{
-		File file=new File("C:\\Project\\AmplifyAutomation\\Elements.properties");
+		File file=new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\amplify\\test\\config\\Elements.properties");
 		properties=new Properties();
 		FileInputStream fis=new FileInputStream(file);
 		properties.load(fis);
 		    }
 		//Reading TestDataProperties
 		public void readTestDataProperties() throws Exception{
-		File file=new File("C:\\Project\\AmplifyAutomation\\TestData.properties");
+		File file=new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\amplify\\test\\config\\TestData.properties");
 		propertiesData=new Properties();
 		FileInputStream fis=new FileInputStream(file);
 		propertiesData.load(fis);
@@ -57,14 +57,14 @@ public class Functions {
 		String browserType=properties.getProperty("browser");
 		switch (browserType) {
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\sahil.singh\\Documents\\New folder\\New folder\\Selenium\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			driver=new FirefoxDriver();	
 			eventListener = new WebEventListener();
 			e_driver = new EventFiringWebDriver(driver);
 			e_driver.register(eventListener);
 			break;
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahil.singh\\Documents\\New folder\\New folder\\Selenium\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\drivers\\chromedriver (2).exe");
 			driver=new ChromeDriver();
 			eventListener = new WebEventListener();
 			e_driver = new EventFiringWebDriver(driver);
@@ -135,7 +135,7 @@ public class Functions {
 		}
 		//maximize window
 		public void maxWindowFunc(){
-			driver.manage().window().maximize();;
+			driver.manage().window().maximize();
 		}
 		//role DropDown by Value
 		public void roleDropDownFunc(WebElement roleDropElement,String DropValue){

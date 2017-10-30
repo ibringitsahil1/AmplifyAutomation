@@ -1,5 +1,6 @@
 package com.amplify.test.pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,27 +9,26 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.amplify.test.functions.Functions;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 public class UnderwriterChecklistReviewPage extends Functions{
 WebDriver driver;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_TabContainer_0']/ul/li[3]/a")
+	@FindBy(xpath="//*[contains(@class,'mx-name-tabPage18')]")
 	WebElement checklistReviewTab;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_ControlBarButton_25']")
+	@FindBy(xpath="//*[contains(@class,'mx-name-searchButton24')]")
 	WebElement searchButton;
 	
-	@FindBy(xpath="//*[@class='mx-grid-search-input mx-name-searchField12']/input")
+	@FindBy(xpath="//*[@class='mx-grid-search-input mx-name-searchField12']")
 	WebElement searchLoanNumber;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_Button_49']")
+	@FindBy(xpath="//*[@class='mx-grid mx-datagrid mx-name-grid4']/div/div/button[1]")
 	WebElement secondSearchButton;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_DataGrid_7']/div[3]/div/table[2]/tbody/tr[1]/td[1]")
+	@FindBy(xpath="//*[contains(@class,'mx-grid mx-datagrid mx-name-grid4')]/div[3]/div/table[2]/tbody/tr[1]/td[1]")
 	WebElement loanSearched;
 	
-	@FindBy(xpath="//*[@data-id='859']")
+	@FindBy(xpath="//*[contains(@class,'mx-name-microflowButton3')]")
 	WebElement performReviewButton;
 	
 	@FindBy(xpath="(//input[@type='radio'])[1]")
@@ -37,10 +37,10 @@ WebDriver driver;
 	@FindBy(partialLinkText="Update Comment")
 	WebElement updateCommentLink;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_TextArea_3']/textarea")
+	@FindBy(xpath="//*[contains(@class,'mx-name-textArea1')]/textarea")
 	WebElement commentTextBox;
 	
-	@FindBy(xpath="//button[contains(@id,'mxui_widget_SaveButton_')]")
+	@FindBy(xpath="//button[contains(@class,'btn mx-button mx-name-saveButton1')]")
 	WebElement clickSaveCommentTextBox;
 	
 	@FindBy(xpath="(//input[@type='radio'])[4]")
@@ -103,6 +103,8 @@ WebDriver driver;
 		secondNoIssueRadioButton.click();
 	}
 	public void clickThirdNoIssueRadioButton(){
+		 ((JavascriptExecutor)driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
+		 waitForElement(driver, 8, thirdNoIssueRadioButton);
 		thirdNoIssueRadioButton.click();
 	}
 	public void clickCompleteReviewButton(){

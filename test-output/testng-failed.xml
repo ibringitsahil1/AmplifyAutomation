@@ -5,7 +5,7 @@
     <listener class-name="com.test.automation.uiAutomation.customListner.Listener"/>
     <listener class-name="com.test.automation.uiAutomation.customListner.RetryListener"/>
   </listeners>
-  <test name="test1(failed)">
+  <test name="Regression Suite(failed)">
     <classes>
       <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter -->
     </classes>
-  </test> <!-- test1(failed) -->
+  </test> <!-- Regression Suite(failed) -->
 </suite> <!-- Failed suite [FirstSuite] -->

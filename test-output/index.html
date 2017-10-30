@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-FirstSuite">
-              <span class="suite-name border-passed">FirstSuite</span>
+              <span class="suite-name border-failed">FirstSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FirstSuite" class="hide-methods failed suite-FirstSuite"> (hide)</a> <!-- hide-methods failed suite-FirstSuite -->
+                      <a href="#" panel-name="suite-FirstSuite" class="show-methods failed suite-FirstSuite"> (show)</a> <!-- show-methods failed suite-FirstSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-FirstSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstSuite" title="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter" hash-for-method="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FirstSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-FirstSuite" class="hide-methods skipped suite-FirstSuite"> (hide)</a> <!-- hide-methods skipped suite-FirstSuite -->
+                      <a href="#" panel-name="suite-FirstSuite" class="show-methods skipped suite-FirstSuite"> (show)</a> <!-- show-methods skipped suite-FirstSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-FirstSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstSuite" title="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter" hash-for-method="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-FirstSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,11 +145,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstSuite" title="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter" hash-for-method="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FirstSuite" title="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter" hash-for-method="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter">VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -137,6 +160,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-FirstSuite" class="panel FirstSuite">
+          <div class="suite-FirstSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">
+                  </a> <!-- VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter -->
+                  <span class="method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [UW] but found []
+	at com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter.VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter(TC001_VerifyTasksForUnderwriter.java:202)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstSuite-class-failed -->
+          <div class="suite-FirstSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">
+                  </a> <!-- VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter -->
+                  <span class="method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter.VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter(TC001_VerifyTasksForUnderwriter.java:207)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstSuite-class-skipped -->
           <div class="suite-FirstSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -166,13 +227,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter">
-                  </a> <!-- VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter -->
-                  <span class="method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter">
                   </a> <!-- VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter -->
                   <span class="method-name">VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter</span>
@@ -194,11 +248,11 @@
     &lt;listener class-name=&quot;com.test.automation.uiAutomation.customListner.Listener&quot;/&gt;
     &lt;listener class-name=&quot;com.test.automation.uiAutomation.customListner.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;test1&quot;&gt;
+  &lt;test name=&quot;Regression Suite&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test1 --&gt;
+  &lt;/test&gt; &lt;!-- Regression Suite --&gt;
 &lt;/suite&gt; &lt;!-- FirstSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,7 +264,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">test1 (1 class)</span>
+                <span class="test-name">Regression Suite (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,32 +290,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyLoginThroughUnderwriterUserRole')
+data.setCell(0, 1, 'VerifyCompletionOfUWTaskForUnderwriter')
 data.setCell(0, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
-data.setCell(0, 3, 52454);
+data.setCell(0, 3, 2527845);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter')
+data.setCell(1, 1, 'VerifyLoginThroughUnderwriterUserRole')
 data.setCell(1, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
-data.setCell(1, 3, 20976);
+data.setCell(1, 3, 68987);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyCompletionOfUWTaskForUnderwriter')
+data.setCell(2, 1, 'VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter')
 data.setCell(2, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
-data.setCell(2, 3, 13578);
+data.setCell(2, 3, 16216);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter')
 data.setCell(3, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
-data.setCell(3, 3, 12935);
+data.setCell(3, 3, 13161);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'VerifyOpeningOfUWTasksForUnderwriter')
 data.setCell(4, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
-data.setCell(4, 3, 11622);
+data.setCell(4, 3, 12481);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter')
+data.setCell(5, 2, 'com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter')
+data.setCell(5, 3, 10399);
 window.suiteTableData['FirstSuite']= { tableData: data, tableDiv: 'times-div-FirstSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 44 minutes</span>
               <div id="times-div-FirstSuite">
               </div> <!-- times-div-FirstSuite -->
             </div> <!-- times-div -->
@@ -277,7 +335,7 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">**************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************</span>
                 <span class="reporter-method-output">*************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test</span>
-                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_14_46.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_30_10_2017_06_26_20.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter_30_10_2017_06_26_20.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -285,15 +343,17 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">**************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************</span>
                 <span class="reporter-method-output">*************Ending VerifyCompletionOfUWTaskForUnderwriter Test</span>
-                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_10_10_2017_02_15_00.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_30_10_2017_07_08_28.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyCompletionOfUWTaskForUnderwriter_30_10_2017_07_08_28.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
+              <span class="reporter-method-name">VerifyLoginThroughUnderwriterUserRole</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">**************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************</span>
-                <span class="reporter-method-output">*************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test</span>
-                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_10_10_2017_02_15_22.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">**************Starting VerifyLoginThroughUnderwriterUserRole Test*****************</span>
+                <span class="reporter-method-output">Login with Underwriter</span>
+                <span class="reporter-method-output">Click Login Button</span>
+                <span class="reporter-method-output">*************Ending VerifyLoginThroughUnderwriterUserRole Test</span>
+                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_30_10_2017_06_25_54.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_30_10_2017_06_25_54.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -311,17 +371,22 @@ return data;
                 <span class="reporter-method-output">Select Loan in Loan Overview Tab</span>
                 <span class="reporter-method-output">clickViewLoanButton</span>
                 <span class="reporter-method-output">clickTasksTabinViewLoanPopup</span>
-                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_10_10_2017_02_14_33.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_30_10_2017_06_26_07.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyOpeningOfUWTasksForUnderwriter_30_10_2017_06_26_07.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyLoginThroughUnderwriterUserRole</span>
+              <span class="reporter-method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">**************Starting VerifyLoginThroughUnderwriterUserRole Test*****************</span>
-                <span class="reporter-method-output">Login with Underwriter</span>
-                <span class="reporter-method-output">Click Login Button</span>
-                <span class="reporter-method-output">*************Ending VerifyLoginThroughUnderwriterUserRole Test</span>
-                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\VerifyLoginThroughUnderwriterUserRole_10_10_2017_02_14_21.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">**************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************</span>
+                <span class="reporter-method-output"><a href='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAuto\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_30_10_2017_07_08_54.png'> <img src='C:\Project\AmplifyAutomation\src\main\java\com\test\automation\uiAuto\failure_screenshots\VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter_30_10_2017_07_08_54.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">**************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************</span>
+                <span class="reporter-method-output">Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).</span>
+                <span class="reporter-method-output">Test is skipped:VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -346,23 +411,29 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginThroughUnderwriterUserRole</span>
-                <span class="method-start">6099 ms</span>
+                <span class="method-start">7328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyOpeningOfUWTasksForUnderwriter</span>
-                <span class="method-start">58969 ms</span>
+                <span class="method-start">76420 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter</span>
-                <span class="method-start">70906 ms</span>
+                <span class="method-start">88984 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyCompletionOfUWTaskForUnderwriter</span>
-                <span class="method-start">84114 ms</span>
+                <span class="method-start">102200 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
-                <span class="method-start">98334 ms</span>
+                <span class="method-start">2630124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter</span>
+                <span class="method-start">2640528 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

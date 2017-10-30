@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.0.1</version>
+			<version>3.6.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -51,6 +51,13 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.40.2</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+			<dependency>
+			    <groupId>org.apache.commons</groupId>
+			    <artifactId>commons-io</artifactId>
+			    <version>1.3.2</version>
+			</dependency>
   </dependencies>
   
 </project>

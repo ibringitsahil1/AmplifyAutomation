@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -15,16 +16,17 @@ public class ViewLoanPopup extends Functions {
 	List<WebElement> rowsInTaskTable;
 	List<WebElement> columnsInTaskTable;
 	
-	@FindBy(xpath="//li[@data-id='592']/a")
+	/*@FindBy(xpath="//*[contains(@class,'mx-name-tabPage6')]")*/
+	@FindBy(xpath="//*[contains(@class,'mx-name-tabControl1')]/ul/li[4]/a")
 	WebElement tasksTabinViewLoanPopup;
 	
 	@FindBy(xpath="//div[text()='Task Name']")
 	WebElement taskNameColumn;
 	
-	@FindBy(xpath="//div[contains(@id,'mxui_widget_DataGrid_3')]/div[3]/div/table[2]/tbody/tr/td[1]")
+	@FindBy(xpath="//div[@class='mx-grid mx-datagrid mx-name-grid1']/div[3]/div/table[2]/tbody/tr/td[1]")
 	WebElement firstRowTaskName;
 	
-	@FindBy(xpath="//div[contains(@id,'mxui_widget_DataGrid_3')]/div[3]/div/table[2]/tbody/tr/td[2]/div")
+	@FindBy(xpath="//div[@class='mx-grid mx-datagrid mx-name-grid1']/div[3]/div/table[2]/tbody/tr/td[2]/div")
 	WebElement firstRowStatusName;
 	
 	@FindBy(xpath="//div[contains(@class,'mx-dataview mx-name-dataView1')]/div[2]/button")
@@ -47,8 +49,8 @@ public class ViewLoanPopup extends Functions {
 	}
 	}
 	public void clockTasksTabinViewLoanPopup(){
-		waitForElement(driver, 12, tasksTabinViewLoanPopup);
-		tasksTabinViewLoanPopup.click();
+		waitForElement(driver, 12, tasksTabinViewLoanPopup);	
+		driver.findElement(By.xpath("//*[contains(@class,'mx-table mx-name-table1')]/tbody/tr[2]/td/div/ul/li[4]/a")).click();		
 	}
 	public void clickTaskNameColumn(){
 		waitForElement(driver, 12, taskNameColumn);

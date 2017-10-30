@@ -7,24 +7,23 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.amplify.test.functions.Functions;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 public class UnderwriterLoanOverviewPage extends Functions {
 	
 	WebDriver driver;
-	@FindBy(xpath="//*[@id='mxui_widget_ControlBarButton_1']")
+	@FindBy(xpath="//*[contains(@class,'btn mx-button mx-name-searchButton7')]")
 	WebElement searchButton;
 	
-	@FindBy(xpath="//*[@class='mx-grid-search-input mx-name-searchField46']/input")
+	@FindBy(xpath="//*[contains(@class,'mx-grid-search-input mx-name-searchField46')]/input")
 	WebElement searchLoanNumber;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_Button_6']")
+	@FindBy(xpath="//*[contains(@class,'mx-name-search mx-grid-search-button')]")
 	WebElement secondSearchButton;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_DataGrid_1']/div[3]/div/table[2]/tbody/tr[1]/td[1]")
+	@FindBy(xpath="//*[contains(@class,'mx-grid mx-datagrid mx-name-grid14')]/div[3]/div/table[2]/tbody/tr[1]/td[1]")
 	WebElement loanSearched;
 	
-	@FindBy(xpath="//*[@id='mxui_widget_ControlBarButton_5']")
+	@FindBy(xpath="//*[contains(@class,'btn mx-button mx-name-actionButton7')]")
 	WebElement createChecklistButton;
 	
 	@FindBy(xpath="//*[contains(@id,'mxui_widget_DialogMessage_')]/div[1]/div[1]/h4")
@@ -33,7 +32,7 @@ public class UnderwriterLoanOverviewPage extends Functions {
 	@FindBy(xpath="//*[contains(@id,'mxui_widget_DialogMessage_')]/div[1]/div[1]/button")
 	WebElement okButtonPopup;
 	
-	@FindBy(xpath="//button[@id='mxui_widget_ControlBarButton_3']")
+	@FindBy(xpath="//button[contains(@class,'btn mx-button mx-name-microflowButton13')]")
 	WebElement viewLoanButton;
 	
 	@FindBy(linkText="Tasks")
