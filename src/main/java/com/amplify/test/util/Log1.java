@@ -3,7 +3,11 @@ package com.amplify.test.util;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 
-public class Log1 {
+import com.amplify.test.functions.Functions;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+public class Log1 extends Functions {
 
 
 		// Initialize Log4j logs
@@ -26,9 +30,10 @@ public class Log1 {
 			Log.info("X");
 		}
 		// Need to create these methods, so that they can be called 
-		public static void info(String message) {
+		public static  void info(String message) {
 			Log.info(message);
 			Reporter.log(message);
+			extentTest.log(LogStatus.INFO, message);
 		}
 
 

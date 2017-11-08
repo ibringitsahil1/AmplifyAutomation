@@ -43,7 +43,7 @@ public class UnderwriterTasksPage extends Functions {
 	@FindBy(xpath="//div[contains(@class,'mx-grid mx-datagrid mx-name-grid46')]/div[3]/div/table[2]/tbody/tr[1]/td[2]")
 	WebElement taskNameOfloanSearched;
 	
-	@FindBy(xpath="//div[contains(@class,'mx-grid mx-datagrid mx-name-grid39')]/div[3]/div/table[2]/tbody/tr[2]/td[2]")
+	@FindBy(xpath="//div[@class='mx-grid mx-datagrid mx-name-grid39']/div[3]/div/table[2]/tbody/tr[1]/td[2]")
 	WebElement taskNameOfloanSearchedInCompletedTab;
 	
 	public UnderwriterTasksPage(WebDriver driver){

@@ -13,6 +13,10 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import com.amplify.test.functions.Functions;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import org.apache.commons.io.FileUtils;
 
 
@@ -23,21 +27,25 @@ import org.apache.commons.io.FileUtils;
  */
 public class Listener extends Functions implements ITestListener{
 
-   
-	public void onFinish(ITestContext arg0) {
-		Reporter.log("Test is finished :" + arg0.getName());
-		
-	}
+	
+
 
 	public void onStart(ITestContext arg0) {
 		Reporter.log("Test Starts :" + arg0.getName());
+		System.out.println("onStart Count ");
 	}
+	
+	public void onFinish(ITestContext arg0) {
+		Reporter.log("Test is finished :" + arg0.getName());
+		System.out.println("onFinish");
+		/*extentReports.close();*/
 
+	}
 	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-
+	// Invoked each time a test fails.
 	public void onTestFailure(ITestResult result) {
 		if(!result.isSuccess()){
 			Calendar calendar = Calendar.getInstance();
@@ -51,11 +59,17 @@ public class Listener extends Functions implements ITestListener{
 				//getAbsolutePath gives complete path of file starting from drive name like absolute xpath
 				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAuto/";
 				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
+				String dest=(String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png";
 				FileUtils.copyFile(scrFile, destFile);
 				
 				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
 				
+				//Write Report in ReportNG
+				extentTest.log(LogStatus.FAIL,"Result "+ methodName + " Has Failed");
+				extentTest.log(LogStatus.FAIL,"Screenshot of Failed Test : "+ extentTest.addScreenCapture(dest));
+				extentTest.log(LogStatus.ERROR,"Test Script Failed Due to Below :-"+System.lineSeparator() + result.getThrowable());
+				extentReports.endTest(extentTest);
+				extentReports.flush();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -70,9 +84,10 @@ public class Listener extends Functions implements ITestListener{
 	}
 
 	public void onTestStart(ITestResult arg0) {
-		
+		extentReports.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
+		extentTest=extentReports.startTest(arg0.getName());
 	}
-
+	// Invoked each time a test Pass.
 	public void onTestSuccess(ITestResult arg0) {
 			//ITestResult(testng Class) tells us the status of Test Script pass/fail/skip
 		if(arg0.isSuccess()){
@@ -86,11 +101,17 @@ public class Listener extends Functions implements ITestListener{
 				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/";
 				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
+				String dest=(String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png";
 				FileUtils.copyFile(scrFile, destFile);
 				
 				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
 				
+				//Write Report in ReportNG
+				
+				extentTest.log(LogStatus.PASS,"Result : "+ methodName + " Has Passed");
+				extentTest.log(LogStatus.PASS,"Screenshot of Passed Test : "+extentTest.addScreenCapture(dest));
+				extentReports.endTest(extentTest);
+				extentReports.flush();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}catch (Exception e) {
@@ -98,5 +119,5 @@ public class Listener extends Functions implements ITestListener{
 			}
 		}
 
-}
+	}
 }

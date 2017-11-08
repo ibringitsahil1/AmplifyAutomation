@@ -1,8 +1,10 @@
 package com.amplify.test.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -31,7 +33,7 @@ WebDriver driver;
 	@FindBy(xpath="//*[contains(@class,'mx-name-microflowButton3')]")
 	WebElement performReviewButton;
 	
-	@FindBy(xpath="(//input[@type='radio'])[1]")
+	@FindBy(xpath="(//input[@type='radio'])[2]")
 	WebElement firstIssueRadioButton;
 	
 	@FindBy(partialLinkText="Update Comment")
@@ -40,7 +42,10 @@ WebDriver driver;
 	@FindBy(xpath="//*[contains(@class,'mx-name-textArea1')]/textarea")
 	WebElement commentTextBox;
 	
-	@FindBy(xpath="//button[contains(@class,'btn mx-button mx-name-saveButton1')]")
+	@FindBy(xpath="//h4[contains(.,'Responsible Party Comments')]")
+	WebElement responsiblePartyCommentsTitle;
+	
+	@FindBy(xpath="//*[@class='mx-dataview mx-name-dataView2']/div[2]/button[1]")
 	WebElement clickSaveCommentTextBox;
 	
 	@FindBy(xpath="(//input[@type='radio'])[4]")
@@ -54,6 +59,9 @@ WebDriver driver;
 	
 	@FindBy(xpath="//button[contains(.,'Yes')]")
 	WebElement yesButton;
+	
+	@FindBy(xpath="//*[contains(@class,'modal-dialog mx-dialog mx-dialog-info')]/div/div[3]/button")
+	WebElement okButtonOnInfoPopup;
 	
 	public UnderwriterChecklistReviewPage(WebDriver driver){
 		this.driver=driver;
@@ -83,28 +91,26 @@ WebDriver driver;
 	public void clickPerformReviewButton(){
 		performReviewButton.click();
 	}
-	public void clickFirstIssueRadioButton(){
+	public void clickFirstNoIssueRadioButton(){
 		waitForElement(driver, 15, firstIssueRadioButton);
 		firstIssueRadioButton.click();
 	}
-	public void clickUpdateCommentLink(){
-		waitForElement(driver, 8, updateCommentLink);
-		updateCommentLink.click();
-	}
-	public void sendTextInCommentTextBox(String comment){
-		waitForElement(driver, 8, commentTextBox);
-		commentTextBox.sendKeys(comment);;
-	}
-	public void clickSaveCommentTextBox(){
-		clickSaveCommentTextBox.click();
-	}
+
 	public void clickSecondNoIssueRadioButton(){
 		waitForElement(driver, 8, secondNoIssueRadioButton);
 		secondNoIssueRadioButton.click();
 	}
 	public void clickThirdNoIssueRadioButton(){
-		 ((JavascriptExecutor)driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
-		 waitForElement(driver, 8, thirdNoIssueRadioButton);
+		/*JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].value='222-2222';", commentTextBox);*/
+		/*commentTextBox.sendKeys(comment);*/
+		Actions action=new Actions(driver);
+		 ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)");
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", thirdNoIssueRadioButton);
+		 /*((JavascriptExecutor) driver).executeScript("0,document.body.scrollHeight");*/
+		 waitForElement(driver, 8, thirdNoIssueRadioButton);		 
+		 action.sendKeys(Keys.PAGE_DOWN).build().perform();
+		 action.moveToElement(thirdNoIssueRadioButton).click().build().perform();
 		thirdNoIssueRadioButton.click();
 	}
 	public void clickCompleteReviewButton(){
@@ -116,5 +122,14 @@ WebDriver driver;
 		WebDriverWait wait= new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOf(yesButton));
 		yesButton.click();
+	}
+	public void clickOkButtonOnInfoPopup(){
+		WebDriverWait wait= new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.visibilityOf(okButtonOnInfoPopup));
+		try{
+		driver.switchTo().alert().accept();}
+		catch(Exception e){
+		okButtonOnInfoPopup.click();
+		}
 	}
 }

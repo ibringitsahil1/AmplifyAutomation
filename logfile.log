@@ -1284,3 +1284,1167 @@ Session ID: 5882a9b5-8288-4ce8-a6c0-e5403fdafcb0
 2017-10-30 19:20:08 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
 2017-10-30 19:20:21 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
 2017-10-30 19:20:21 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:40:58 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-30 19:40:58 INFO  Log1:30 - Login with Underwriter
+2017-10-30 19:42:03 INFO  Log1:30 - Click Login Button
+2017-10-30 19:42:03 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-30 19:42:03 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-30 19:42:03 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-30 19:42:03 INFO  Log1:30 - Click Search Button
+2017-10-30 19:42:06 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-30 19:42:06 INFO  Log1:30 - Click Second Search Button
+2017-10-30 19:42:09 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:42:09 INFO  Log1:30 - Click Create Checklist Button
+2017-10-30 19:42:09 INFO  Log1:30 - Get Popup Title
+2017-10-30 19:42:10 INFO  Log1:30 - close Popup window
+2017-10-30 19:42:10 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:42:10 INFO  Log1:30 - clickViewLoanButton
+2017-10-30 19:42:10 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-30 19:42:17 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 19:42:31 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-30 19:42:31 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:48:15 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-30 19:48:15 INFO  Log1:30 - Login with Underwriter
+2017-10-30 19:49:17 INFO  Log1:30 - Click Login Button
+2017-10-30 19:49:17 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-30 19:49:17 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-30 19:49:17 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-30 19:49:17 INFO  Log1:30 - Click Search Button
+2017-10-30 19:49:19 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-30 19:49:20 INFO  Log1:30 - Click Second Search Button
+2017-10-30 19:49:22 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:49:22 INFO  Log1:30 - Click Create Checklist Button
+2017-10-30 19:49:22 INFO  Log1:30 - Get Popup Title
+2017-10-30 19:49:23 INFO  Log1:30 - close Popup window
+2017-10-30 19:49:23 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:49:23 INFO  Log1:30 - clickViewLoanButton
+2017-10-30 19:49:23 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-30 19:49:30 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 19:49:43 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-30 19:49:43 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:50:53 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='btn mx-button mx-name-saveButton1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.PljrP2HN9v8t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=5316, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 03555379-33d6-4fd3-89bb-550eba6a9d5c
+*** Element info: {Using=xpath, value=//button[@class='btn mx-button mx-name-saveButton1']}
+2017-10-30 19:50:54 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-30 19:50:54 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:50:54 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to write response to stream
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.PljrP2HN9v8t, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=5316, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 03555379-33d6-4fd3-89bb-550eba6a9d5c
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-30 19:50:54 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 19:51:13 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-30 19:51:13 INFO  Log1:30 - Login with Underwriter
+2017-10-30 19:52:09 INFO  Log1:30 - Click Login Button
+2017-10-30 19:52:09 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-30 19:52:09 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-30 19:52:09 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-30 19:52:09 INFO  Log1:30 - Click Search Button
+2017-10-30 19:52:12 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-30 19:52:12 INFO  Log1:30 - Click Second Search Button
+2017-10-30 19:52:14 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:52:15 INFO  Log1:30 - Click Create Checklist Button
+2017-10-30 19:52:15 INFO  Log1:30 - Get Popup Title
+2017-10-30 19:52:15 INFO  Log1:30 - close Popup window
+2017-10-30 19:52:16 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-30 19:52:16 INFO  Log1:30 - clickViewLoanButton
+2017-10-30 19:52:16 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-30 19:52:23 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 19:52:36 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-30 19:52:36 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:58:34 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.6ZJ40fXiblNS, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=7588, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ed999670-f9ae-410b-88c5-1f41ae7d57fe
+*** Element info: {Using=xpath, value=(//input[@type='radio'])[6]}
+2017-10-30 19:58:35 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-30 19:58:35 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-30 19:58:35 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.6ZJ40fXiblNS, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=7588, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ed999670-f9ae-410b-88c5-1f41ae7d57fe
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-30 19:58:35 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 19:58:42 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-30 19:58:42 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-30 21:21:05 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-30 21:21:05 INFO  Log1:30 - Login with Underwriter
+2017-10-30 21:21:23 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-10-30 21:21:23 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-30 21:21:24 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 15:04:56 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 15:04:56 INFO  Log1:30 - Login with Underwriter
+2017-10-31 15:05:46 INFO  Log1:30 - Click Login Button
+2017-10-31 15:05:46 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 15:05:46 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 15:05:46 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 15:05:46 INFO  Log1:30 - Click Search Button
+2017-10-31 15:05:48 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 15:05:49 INFO  Log1:30 - Click Second Search Button
+2017-10-31 15:05:51 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 15:05:51 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 15:05:51 INFO  Log1:30 - Get Popup Title
+2017-10-31 15:05:52 INFO  Log1:30 - close Popup window
+2017-10-31 15:05:52 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 15:05:52 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 15:05:52 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 15:05:59 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 15:06:12 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 15:06:13 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 15:06:53 INFO  Log1:30 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-10-31 15:06:54 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 15:07:31 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 15:07:31 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 15:08:32 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 15:08:32 INFO  Log1:30 - Login with Underwriter
+2017-10-31 15:09:25 INFO  Log1:30 - Click Login Button
+2017-10-31 15:09:25 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 15:09:25 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 15:09:25 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 15:09:26 INFO  Log1:30 - Click Search Button
+2017-10-31 15:09:28 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 15:09:28 INFO  Log1:30 - Click Second Search Button
+2017-10-31 15:09:30 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 15:09:30 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 15:09:31 INFO  Log1:30 - Get Popup Title
+2017-10-31 15:09:34 INFO  Log1:30 - close Popup window
+2017-10-31 15:09:34 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 15:09:34 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 15:09:35 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 15:09:41 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 15:09:54 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 15:09:54 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 16:30:51 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (555.63330078125, 564.2166748046875) is out of bounds of viewport width (1215) and height (563)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.9WPlRGoFSzde, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=7700, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 446cf792-45e6-430a-8746-31b376bdb494
+2017-10-31 16:30:52 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 16:30:52 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 16:31:14 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 16:31:14 INFO  Log1:30 - Login with Underwriter
+2017-10-31 16:32:07 INFO  Log1:30 - Click Login Button
+2017-10-31 16:32:07 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 16:32:07 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 16:32:07 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 16:32:07 INFO  Log1:30 - Click Search Button
+2017-10-31 16:32:09 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 16:32:10 INFO  Log1:30 - Click Second Search Button
+2017-10-31 16:32:12 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 16:32:12 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 16:32:12 INFO  Log1:30 - Get Popup Title
+2017-10-31 16:32:13 INFO  Log1:30 - close Popup window
+2017-10-31 16:32:13 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 16:32:13 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 16:32:13 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 16:32:21 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 16:32:34 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 16:32:34 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 17:10:37 INFO  Log1:30 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-10-31 17:10:37 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:10:57 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 17:10:57 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:14:42 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:14:42 INFO  Log1:30 - Login with Underwriter
+2017-10-31 17:14:43 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-10-31 17:14:43 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:14:43 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:15:00 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:15:00 INFO  Log1:30 - Login with Underwriter
+2017-10-31 17:15:52 INFO  Log1:30 - Click Login Button
+2017-10-31 17:15:52 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 17:15:52 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 17:15:52 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 17:15:53 INFO  Log1:30 - Click Search Button
+2017-10-31 17:15:55 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 17:15:55 INFO  Log1:30 - Click Second Search Button
+2017-10-31 17:15:58 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:15:58 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 17:15:58 INFO  Log1:30 - Get Popup Title
+2017-10-31 17:15:59 INFO  Log1:30 - close Popup window
+2017-10-31 17:15:59 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:15:59 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 17:16:00 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 17:16:06 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:16:20 INFO  Retry:37 - Retrying test VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 17:16:20 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:16:31 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:16:47 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 17:16:47 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:17:45 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:17:45 INFO  Log1:30 - Login with Underwriter
+2017-10-31 17:18:42 INFO  Log1:30 - Click Login Button
+2017-10-31 17:18:42 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 17:18:42 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 17:18:42 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 17:18:43 INFO  Log1:30 - Click Search Button
+2017-10-31 17:18:46 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 17:18:46 INFO  Log1:30 - Click Second Search Button
+2017-10-31 17:18:48 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:18:48 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 17:18:48 INFO  Log1:30 - Get Popup Title
+2017-10-31 17:18:51 INFO  Log1:30 - close Popup window
+2017-10-31 17:18:51 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:18:52 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 17:18:52 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 17:18:58 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:19:11 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 17:19:11 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 17:28:43 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:28:43 INFO  Log1:30 - Login with Underwriter
+2017-10-31 17:29:41 INFO  Log1:30 - Click Login Button
+2017-10-31 17:29:41 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 17:29:41 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 17:29:41 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 17:29:41 INFO  Log1:30 - Click Search Button
+2017-10-31 17:29:44 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 17:29:44 INFO  Log1:30 - Click Second Search Button
+2017-10-31 17:29:46 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:29:46 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 17:29:47 INFO  Log1:30 - Get Popup Title
+2017-10-31 17:29:47 INFO  Log1:30 - close Popup window
+2017-10-31 17:29:47 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:29:47 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 17:29:48 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 17:29:55 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:30:08 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 17:30:08 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 17:31:35 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@class='mx-dataview mx-name-dataView2']/div[2]/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.VKE89lnzENJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=1072, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 6fde846d-7eef-466b-b557-cc852a90b4cd
+*** Element info: {Using=xpath, value=//*[@class='mx-dataview mx-name-dataView2']/div[2]/button}
+2017-10-31 17:31:35 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 17:31:35 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 17:31:45 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class,'mx-name-tabPage18')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.VKE89lnzENJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=1072, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 6fde846d-7eef-466b-b557-cc852a90b4cd
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 17:31:46 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:40:43 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 17:40:43 INFO  Log1:30 - Login with Underwriter
+2017-10-31 17:42:04 INFO  Log1:30 - Click Login Button
+2017-10-31 17:42:04 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 17:42:04 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 17:42:04 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 17:42:04 INFO  Log1:30 - Click Search Button
+2017-10-31 17:42:06 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 17:42:07 INFO  Log1:30 - Click Second Search Button
+2017-10-31 17:42:09 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:42:09 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 17:42:09 INFO  Log1:30 - Get Popup Title
+2017-10-31 17:42:10 INFO  Log1:30 - close Popup window
+2017-10-31 17:42:10 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 17:42:10 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 17:42:10 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 17:42:16 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 17:42:29 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 17:42:29 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:03:10 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 18:03:10 INFO  Log1:30 - Login with Underwriter
+2017-10-31 18:04:25 INFO  Log1:30 - Click Login Button
+2017-10-31 18:04:25 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 18:04:25 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 18:04:25 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 18:04:25 INFO  Log1:30 - Click Search Button
+2017-10-31 18:04:28 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 18:04:28 INFO  Log1:30 - Click Second Search Button
+2017-10-31 18:04:31 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:04:31 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 18:04:31 INFO  Log1:30 - Get Popup Title
+2017-10-31 18:04:32 INFO  Log1:30 - close Popup window
+2017-10-31 18:04:32 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:04:32 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 18:04:32 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 18:04:40 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:04:53 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 18:04:53 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:10:30 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.InvalidSelectorException: Given xpath expression "//h4[.,'Responsible Party Comments']" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.wN4IzHoatXNl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=1820, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bd43a6ec-97c4-470a-8175-5deb97f7a8c8
+*** Element info: {Using=xpath, value=//h4[.,'Responsible Party Comments']}
+2017-10-31 18:10:36 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 18:10:36 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:10:36 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.wN4IzHoatXNl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=1820, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bd43a6ec-97c4-470a-8175-5deb97f7a8c8
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 18:10:36 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:10:43 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 18:10:43 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:10:55 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 18:10:55 INFO  Log1:30 - Login with Underwriter
+2017-10-31 18:11:51 INFO  Log1:30 - Click Login Button
+2017-10-31 18:11:51 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 18:11:51 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 18:11:51 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 18:11:51 INFO  Log1:30 - Click Search Button
+2017-10-31 18:11:53 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 18:11:53 INFO  Log1:30 - Click Second Search Button
+2017-10-31 18:11:55 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:11:55 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 18:11:56 INFO  Log1:30 - Get Popup Title
+2017-10-31 18:11:56 INFO  Log1:30 - close Popup window
+2017-10-31 18:11:56 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:11:57 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 18:11:57 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 18:12:03 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:12:17 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 18:12:17 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:17:52 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 18:17:52 INFO  Log1:30 - Login with Underwriter
+2017-10-31 18:18:45 INFO  Log1:30 - Click Login Button
+2017-10-31 18:18:45 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 18:18:45 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 18:18:45 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 18:18:45 INFO  Log1:30 - Click Search Button
+2017-10-31 18:18:48 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 18:18:48 INFO  Log1:30 - Click Second Search Button
+2017-10-31 18:18:50 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:18:51 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 18:18:51 INFO  Log1:30 - Get Popup Title
+2017-10-31 18:18:51 INFO  Log1:30 - close Popup window
+2017-10-31 18:18:52 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:18:52 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 18:18:52 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 18:18:59 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:19:12 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 18:19:12 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:55:26 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.wejKzceSpoXj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=2436, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f896b254-72c9-424c-ab61-405c2f7df58e
+*** Element info: {Using=xpath, value=(//input[@type='radio'])[4]}
+2017-10-31 18:55:26 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 18:55:26 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 18:55:26 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.wejKzceSpoXj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=2436, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f896b254-72c9-424c-ab61-405c2f7df58e
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 18:55:26 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:55:40 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 18:55:40 INFO  Log1:30 - Login with Underwriter
+2017-10-31 18:56:39 INFO  Log1:30 - Click Login Button
+2017-10-31 18:56:39 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 18:56:39 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 18:56:39 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 18:56:40 INFO  Log1:30 - Click Search Button
+2017-10-31 18:56:44 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 18:56:44 INFO  Log1:30 - Click Second Search Button
+2017-10-31 18:56:47 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:56:47 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 18:56:47 INFO  Log1:30 - Get Popup Title
+2017-10-31 18:56:51 INFO  Log1:30 - close Popup window
+2017-10-31 18:56:51 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 18:56:51 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 18:56:52 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 18:56:58 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 18:57:11 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 18:57:11 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:18:51 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class,'mx-name-textArea1')]/textarea
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.Qtxcr5kg3plm, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=2508, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d40a0148-a941-4960-957a-a53eb254d939
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-textArea1')]/textarea}
+2017-10-31 19:18:52 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 19:18:52 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:18:52 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.Qtxcr5kg3plm, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=2508, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d40a0148-a941-4960-957a-a53eb254d939
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 19:19:08 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 19:19:08 INFO  Log1:30 - Login with Underwriter
+2017-10-31 19:20:04 INFO  Log1:30 - Click Login Button
+2017-10-31 19:20:04 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 19:20:04 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 19:20:04 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 19:20:04 INFO  Log1:30 - Click Search Button
+2017-10-31 19:20:06 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 19:20:06 INFO  Log1:30 - Click Second Search Button
+2017-10-31 19:20:08 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:20:09 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 19:20:09 INFO  Log1:30 - Get Popup Title
+2017-10-31 19:20:09 INFO  Log1:30 - close Popup window
+2017-10-31 19:20:09 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:20:10 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 19:20:10 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 19:20:17 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:20:30 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 19:20:30 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:21:23 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class,'mx-name-textArea1')]/textarea
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.KiRACbJXHpMV, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=8468, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 21ccea89-bf2e-4e0c-90aa-ab2c3128d667
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-textArea1')]/textarea}
+2017-10-31 19:21:23 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 19:21:23 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:21:28 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.KiRACbJXHpMV, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=8468, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 21ccea89-bf2e-4e0c-90aa-ab2c3128d667
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 19:21:28 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:21:35 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 19:21:35 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:21:57 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 19:21:57 INFO  Log1:30 - Login with Underwriter
+2017-10-31 19:22:58 INFO  Log1:30 - Click Login Button
+2017-10-31 19:22:58 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 19:22:58 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 19:22:58 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 19:22:59 INFO  Log1:30 - Click Search Button
+2017-10-31 19:23:02 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 19:23:02 INFO  Log1:30 - Click Second Search Button
+2017-10-31 19:23:04 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:23:04 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 19:23:05 INFO  Log1:30 - Get Popup Title
+2017-10-31 19:23:06 INFO  Log1:30 - close Popup window
+2017-10-31 19:23:06 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:23:06 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 19:23:06 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 19:23:13 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:23:27 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 19:23:27 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:24:38 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class,'mx-name-textArea1')]/textarea
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.JpFvEHpcmc9l, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=10080, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 0a677b48-6b93-4c00-97a5-ba519aeb143a
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-textArea1')]/textarea}
+2017-10-31 19:24:39 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 19:24:39 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-10-31 19:24:39 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.JpFvEHpcmc9l, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=10080, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 0a677b48-6b93-4c00-97a5-ba519aeb143a
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-10-31 19:24:39 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:24:46 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-10-31 19:24:46 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:25:00 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-10-31 19:25:00 INFO  Log1:30 - Login with Underwriter
+2017-10-31 19:25:57 INFO  Log1:30 - Click Login Button
+2017-10-31 19:25:57 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-10-31 19:25:57 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-10-31 19:25:57 INFO  Log1:30 - Click Loan Overview Tab
+2017-10-31 19:25:58 INFO  Log1:30 - Click Search Button
+2017-10-31 19:26:00 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-10-31 19:26:00 INFO  Log1:30 - Click Second Search Button
+2017-10-31 19:26:03 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:26:03 INFO  Log1:30 - Click Create Checklist Button
+2017-10-31 19:26:03 INFO  Log1:30 - Get Popup Title
+2017-10-31 19:26:03 INFO  Log1:30 - close Popup window
+2017-10-31 19:26:04 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-10-31 19:26:04 INFO  Log1:30 - clickViewLoanButton
+2017-10-31 19:26:04 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-10-31 19:26:12 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-10-31 19:26:25 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-10-31 19:26:25 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-02 20:32:36 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-02 20:32:36 INFO  Log1:30 - Login with Underwriter
+2017-11-02 20:33:48 INFO  Log1:30 - Click Login Button
+2017-11-02 20:33:48 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-02 20:33:48 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-02 20:33:48 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-02 20:33:48 INFO  Log1:30 - Click Search Button
+2017-11-02 20:33:53 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-02 20:33:53 INFO  Log1:30 - Click Second Search Button
+2017-11-02 20:33:56 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-02 20:33:56 INFO  Log1:30 - Click Create Checklist Button
+2017-11-02 20:33:56 INFO  Log1:30 - Get Popup Title
+2017-11-02 20:33:57 INFO  Log1:30 - close Popup window
+2017-11-02 20:33:57 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-02 20:33:57 INFO  Log1:30 - clickViewLoanButton
+2017-11-02 20:33:58 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-02 20:34:03 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-02 20:34:17 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-02 20:34:17 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-02 20:43:44 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-02 20:43:44 INFO  Log1:30 - Login with Underwriter
+2017-11-02 20:44:45 INFO  Log1:30 - Click Login Button
+2017-11-02 20:44:45 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-02 20:44:45 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-02 20:44:45 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-02 20:44:46 INFO  Log1:30 - Click Search Button
+2017-11-02 20:44:49 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-02 20:44:49 INFO  Log1:30 - Click Second Search Button
+2017-11-02 20:44:51 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-02 20:44:51 INFO  Log1:30 - Click Create Checklist Button
+2017-11-02 20:44:52 INFO  Log1:30 - Get Popup Title
+2017-11-02 20:44:52 INFO  Log1:30 - close Popup window
+2017-11-02 20:44:53 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-02 20:44:53 INFO  Log1:30 - clickViewLoanButton
+2017-11-02 20:44:53 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-02 20:45:00 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-02 20:45:14 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-02 20:45:14 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-02 20:46:34 INFO  Log1:30 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-11-02 20:46:34 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-02 21:03:11 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-02 21:03:11 INFO  Log1:30 - Login with Underwriter
+2017-11-02 21:04:04 INFO  Log1:30 - Click Login Button
+2017-11-02 21:04:04 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-02 21:04:04 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-02 21:07:55 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-02 21:07:56 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-03 20:04:23 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:04:23 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:05:29 INFO  Log1:30 - Click Login Button
+2017-11-03 20:05:48 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-03 20:06:15 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:06:15 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:13:44 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:13:44 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:14:50 INFO  Log1:30 - Click Login Button
+2017-11-03 20:15:01 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-03 20:15:02 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-03 20:15:02 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-03 20:15:02 INFO  Log1:30 - Click Search Button
+2017-11-03 20:15:06 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-03 20:15:07 INFO  Log1:30 - Click Second Search Button
+2017-11-03 20:15:09 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-03 20:15:09 INFO  Log1:30 - Click Create Checklist Button
+2017-11-03 20:15:09 INFO  Log1:30 - Get Popup Title
+2017-11-03 20:15:13 INFO  Log1:30 - close Popup window
+2017-11-03 20:15:13 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-03 20:15:14 INFO  Log1:30 - clickViewLoanButton
+2017-11-03 20:15:14 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-03 20:15:20 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-03 20:15:33 INFO  Log1:30 - *************Ending VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-03 20:15:33 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-03 20:16:03 INFO  Log1:30 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-11-03 20:16:03 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-03 20:16:24 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-03 20:16:24 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-03 20:41:21 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:41:21 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:42:19 INFO  Log1:30 - Click Login Button
+2017-11-03 20:42:33 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-03 20:42:33 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:42:33 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:47:12 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:47:12 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:48:03 INFO  Log1:30 - Click Login Button
+2017-11-03 20:48:13 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-03 20:48:13 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-03 20:48:13 INFO  Log1:30 - Login with Underwriter
+2017-11-03 20:48:54 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-03 20:49:07 INFO  Retry:37 - Retrying test VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-03 20:49:07 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 14:47:01 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 14:47:01 INFO  Log1:30 - Login with Underwriter
+2017-11-07 14:47:58 INFO  Log1:30 - Click Login Button
+2017-11-07 14:48:11 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-07 14:48:11 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 14:48:11 INFO  Log1:30 - Login with Underwriter
+2017-11-07 14:50:15 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 14:50:28 INFO  Retry:37 - Retrying test VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-07 14:50:28 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 14:50:59 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 14:50:59 INFO  Log1:30 - Login with Underwriter
+2017-11-07 14:51:52 INFO  Log1:30 - Click Login Button
+2017-11-07 14:51:55 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-07 14:51:55 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 14:51:55 INFO  Log1:30 - Login with Underwriter
+2017-11-07 14:59:06 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 15:39:47 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 15:39:47 INFO  Log1:30 - Login with Underwriter
+2017-11-07 15:40:44 INFO  Log1:30 - Click Login Button
+2017-11-07 15:40:46 INFO  Retry:37 - Retrying test VerifyLoginThroughUnderwriterUserRole with status FAILURE for the 1 time(s).
+2017-11-07 15:40:46 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 15:40:46 INFO  Log1:30 - Login with Underwriter
+2017-11-07 15:49:05 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 17:28:33 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 17:28:33 INFO  Log1:30 - Login with Underwriter
+2017-11-07 17:29:30 INFO  Log1:30 - Click Login Button
+2017-11-07 17:29:34 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 17:29:34 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 17:29:34 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-07 17:29:35 INFO  Log1:30 - Click Search Button
+2017-11-07 17:29:40 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-07 17:29:41 INFO  Log1:30 - Click Second Search Button
+2017-11-07 17:29:43 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 17:29:43 INFO  Log1:30 - Click Create Checklist Button
+2017-11-07 17:29:43 INFO  Log1:30 - Get Popup Title
+2017-11-07 17:29:45 INFO  Log1:30 - close Popup window
+2017-11-07 17:29:45 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 17:29:45 INFO  Log1:30 - clickViewLoanButton
+2017-11-07 17:29:45 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-07 17:29:51 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 17:30:05 INFO  Retry:37 - Retrying test VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-07 17:30:05 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 17:30:57 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 17:31:04 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.cghm2pEJPgsp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=9968, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 905dbab4-4517-4c90-8685-71aec8838165
+2017-11-07 17:31:05 INFO  Retry:37 - Retrying test VerifyCompletionOfUWTaskForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-07 17:31:05 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 17:32:02 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.cghm2pEJPgsp, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=9968, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 905dbab4-4517-4c90-8685-71aec8838165
+*** Element info: {Using=xpath, value=//*[@class='mx-grid-search-input mx-name-searchField12']}
+2017-11-07 17:32:07 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 17:32:17 INFO  Retry:37 - Retrying test VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter with status FAILURE for the 1 time(s).
+2017-11-07 17:32:17 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:25:57 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 18:25:57 INFO  Log1:30 - Login with Underwriter
+2017-11-07 18:26:53 INFO  Log1:30 - Click Login Button
+2017-11-07 18:26:57 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 18:26:57 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 18:26:57 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-07 18:26:57 INFO  Log1:30 - Click Search Button
+2017-11-07 18:27:00 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-07 18:27:02 INFO  Log1:30 - Click Second Search Button
+2017-11-07 18:27:05 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:27:05 INFO  Log1:30 - Click Create Checklist Button
+2017-11-07 18:27:05 INFO  Log1:30 - Get Popup Title
+2017-11-07 18:27:06 INFO  Log1:30 - close Popup window
+2017-11-07 18:27:06 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:27:06 INFO  Log1:30 - clickViewLoanButton
+2017-11-07 18:27:06 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-07 18:27:12 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:27:55 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 18:28:24 INFO  Log1:30 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-11-07 18:29:37 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:37:38 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 18:37:38 INFO  Log1:30 - Login with Underwriter
+2017-11-07 18:38:45 INFO  Log1:30 - Click Login Button
+2017-11-07 18:38:49 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 18:39:28 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 18:39:28 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-07 18:39:28 INFO  Log1:30 - Click Search Button
+2017-11-07 18:39:30 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-07 18:39:30 INFO  Log1:30 - Click Second Search Button
+2017-11-07 18:39:33 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:39:33 INFO  Log1:30 - Click Create Checklist Button
+2017-11-07 18:39:33 INFO  Log1:30 - Get Popup Title
+2017-11-07 18:39:34 INFO  Log1:30 - close Popup window
+2017-11-07 18:39:34 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:39:34 INFO  Log1:30 - clickViewLoanButton
+2017-11-07 18:39:34 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-07 18:39:58 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:47:06 INFO  Log1:30 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 18:47:06 INFO  Log1:30 - Login with Underwriter
+2017-11-07 18:48:01 INFO  Log1:30 - Click Login Button
+2017-11-07 18:48:01 INFO  Log1:30 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 18:48:02 INFO  Log1:30 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 18:48:02 INFO  Log1:30 - Click Loan Overview Tab
+2017-11-07 18:48:02 INFO  Log1:30 - Click Search Button
+2017-11-07 18:48:05 INFO  Log1:30 - Enter Loan in Loan Number Search Box
+2017-11-07 18:48:05 INFO  Log1:30 - Click Second Search Button
+2017-11-07 18:48:07 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:48:08 INFO  Log1:30 - Click Create Checklist Button
+2017-11-07 18:48:08 INFO  Log1:30 - Get Popup Title
+2017-11-07 18:48:08 INFO  Log1:30 - close Popup window
+2017-11-07 18:48:08 INFO  Log1:30 - Select Loan in Loan Overview Tab
+2017-11-07 18:48:09 INFO  Log1:30 - clickViewLoanButton
+2017-11-07 18:48:09 INFO  Log1:30 - clickTasksTabinViewLoanPopup
+2017-11-07 18:48:14 INFO  Log1:30 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:48:28 INFO  Log1:30 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 18:48:34 ERROR Log1:39 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.kMf2wBGaTT8v, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=10620, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f730a69d-dfa4-48c2-a412-b4778a8ba843
+2017-11-07 18:48:34 INFO  Log1:30 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 18:48:50 INFO  Log1:30 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 20:25:56 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:25:56 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:25:56 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:25:56 ERROR Log1:43 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case java.lang.NullPointerException
+2017-11-07 20:25:57 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:26:29 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:26:29 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:26:29 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:26:29 ERROR Log1:43 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case java.lang.NullPointerException
+2017-11-07 20:26:30 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:29:40 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:29:40 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:29:50 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:29:50 ERROR Log1:43 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case java.lang.NullPointerException
+2017-11-07 20:29:51 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:32:49 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:32:50 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:32:58 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:32:58 ERROR Log1:43 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case java.lang.NullPointerException
+2017-11-07 20:32:59 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:33:17 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:33:17 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:33:27 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:33:27 ERROR Log1:43 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case java.lang.NullPointerException
+2017-11-07 20:33:27 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:33:57 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:36:33 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:36:33 INFO  Log1:33 - Login with Underwriter
+2017-11-07 20:37:34 INFO  Log1:33 - Click Login Button
+2017-11-07 20:37:34 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 20:37:34 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 20:37:34 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 20:37:35 INFO  Log1:33 - Click Search Button
+2017-11-07 20:37:37 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 20:37:37 INFO  Log1:33 - Click Second Search Button
+2017-11-07 20:37:40 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:37:40 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 20:37:40 INFO  Log1:33 - Get Popup Title
+2017-11-07 20:37:40 INFO  Log1:33 - close Popup window
+2017-11-07 20:37:41 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:37:41 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 20:37:41 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 20:37:48 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:37:59 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:38:19 INFO  Log1:33 - *************Ending VerifyCompletionOfUWTaskForUnderwriter Test
+2017-11-07 20:38:19 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:46:11 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:46:11 INFO  Log1:33 - Login with Underwriter
+2017-11-07 20:47:05 INFO  Log1:33 - Click Login Button
+2017-11-07 20:47:05 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 20:47:05 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 20:47:05 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 20:47:06 INFO  Log1:33 - Click Search Button
+2017-11-07 20:47:09 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 20:47:09 INFO  Log1:33 - Click Second Search Button
+2017-11-07 20:47:11 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:47:11 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 20:47:12 INFO  Log1:33 - Get Popup Title
+2017-11-07 20:47:12 INFO  Log1:33 - close Popup window
+2017-11-07 20:47:12 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:47:13 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 20:47:13 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 20:47:20 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:47:33 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:47:40 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.LnxRiesOpkrl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=7580, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 0397871d-073f-4b09-af22-97b0a90dea81
+2017-11-07 20:47:40 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:47:57 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 20:56:03 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 20:56:03 INFO  Log1:33 - Login with Underwriter
+2017-11-07 20:57:00 INFO  Log1:33 - Click Login Button
+2017-11-07 20:57:00 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 20:57:00 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 20:57:00 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 20:57:01 INFO  Log1:33 - Click Search Button
+2017-11-07 20:57:04 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 20:57:05 INFO  Log1:33 - Click Second Search Button
+2017-11-07 20:57:07 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:57:07 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 20:57:07 INFO  Log1:33 - Get Popup Title
+2017-11-07 20:57:08 INFO  Log1:33 - close Popup window
+2017-11-07 20:57:08 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 20:57:09 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 20:57:09 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 20:57:15 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:57:29 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 20:57:35 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.Nl3eDQVotWPt, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=12040, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 2a3eab1b-613a-46ef-8c9b-7ad490d515a9
+2017-11-07 20:57:36 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 20:57:52 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 21:01:18 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 21:01:18 INFO  Log1:33 - Login with Underwriter
+2017-11-07 21:02:14 INFO  Log1:33 - Click Login Button
+2017-11-07 21:02:14 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 21:02:39 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 21:02:43 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 21:02:44 INFO  Log1:33 - Click Search Button
+2017-11-07 21:02:47 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 21:02:47 INFO  Log1:33 - Click Second Search Button
+2017-11-07 21:02:49 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:02:49 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 21:02:50 INFO  Log1:33 - Get Popup Title
+2017-11-07 21:02:50 INFO  Log1:33 - close Popup window
+2017-11-07 21:02:50 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:02:50 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 21:02:51 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 21:03:10 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:03:31 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 21:03:37 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.6bOFUCtik6k1, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=8248, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 47d40e3b-74da-4bb0-b9a5-79307223b9bb
+2017-11-07 21:03:38 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:03:54 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 21:24:13 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 21:24:13 INFO  Log1:33 - Login with Underwriter
+2017-11-07 21:24:52 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:24:56 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 21:24:56 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.I3UzdIpMxrHq, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=4088, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 83e2972c-67b5-4ffb-93af-0424719d6310
+*** Element info: {Using=xpath, value=//*[contains(@class,'mx-name-tabPage18')]}
+2017-11-07 21:24:57 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:25:14 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 21:25:14 INFO  Log1:33 - Login with Underwriter
+2017-11-07 21:26:10 INFO  Log1:33 - Click Login Button
+2017-11-07 21:26:10 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 21:26:10 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 21:26:10 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 21:26:10 INFO  Log1:33 - Click Search Button
+2017-11-07 21:26:14 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 21:26:14 INFO  Log1:33 - Click Second Search Button
+2017-11-07 21:26:16 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:26:17 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 21:26:17 INFO  Log1:33 - Get Popup Title
+2017-11-07 21:26:18 INFO  Log1:33 - close Popup window
+2017-11-07 21:26:18 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:26:18 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 21:26:18 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 21:26:25 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:26:39 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 21:26:45 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.bj7d2xxtiP95, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=8832, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 902005ca-6972-4106-9b24-987a69759e82
+2017-11-07 21:26:45 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:27:02 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 21:28:48 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 21:28:48 INFO  Log1:33 - Login with Underwriter
+2017-11-07 21:29:50 INFO  Log1:33 - Click Login Button
+2017-11-07 21:29:50 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 21:29:50 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 21:29:50 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 21:29:50 INFO  Log1:33 - Click Search Button
+2017-11-07 21:29:53 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 21:29:53 INFO  Log1:33 - Click Second Search Button
+2017-11-07 21:29:56 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:29:56 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 21:29:56 INFO  Log1:33 - Get Popup Title
+2017-11-07 21:29:57 INFO  Log1:33 - close Popup window
+2017-11-07 21:29:57 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:29:57 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 21:29:57 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 21:30:04 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:30:17 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-07 21:30:23 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.DmlyyoaEKHVP, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=12828, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 724b0ed1-002d-4182-aa4f-ae16a55531d5
+2017-11-07 21:30:24 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:30:40 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-07 21:31:44 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-07 21:31:44 INFO  Log1:33 - Login with Underwriter
+2017-11-07 21:32:41 INFO  Log1:33 - Click Login Button
+2017-11-07 21:32:41 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-07 21:32:41 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-07 21:32:41 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-07 21:32:42 INFO  Log1:33 - Click Search Button
+2017-11-07 21:32:45 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-07 21:32:45 INFO  Log1:33 - Click Second Search Button
+2017-11-07 21:32:47 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:32:47 INFO  Log1:33 - Click Create Checklist Button
+2017-11-07 21:32:47 INFO  Log1:33 - Get Popup Title
+2017-11-07 21:32:48 INFO  Log1:33 - close Popup window
+2017-11-07 21:32:48 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-07 21:32:48 INFO  Log1:33 - clickViewLoanButton
+2017-11-07 21:32:48 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-07 21:32:55 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-07 21:33:08 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 13:56:47 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 13:56:47 INFO  Log1:33 - Login with Underwriter
+2017-11-08 13:57:45 INFO  Log1:33 - Click Login Button
+2017-11-08 13:57:45 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 13:57:45 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 13:57:45 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 13:57:46 INFO  Log1:33 - Click Search Button
+2017-11-08 13:57:50 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 13:57:51 INFO  Log1:33 - Click Second Search Button
+2017-11-08 13:57:53 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 13:57:53 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 13:57:53 INFO  Log1:33 - Get Popup Title
+2017-11-08 13:57:54 INFO  Log1:33 - close Popup window
+2017-11-08 13:57:54 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 13:57:54 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 13:57:55 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 13:58:00 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 13:58:13 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 13:58:19 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.sVaeA0ARFDPH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=11824, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: b38b1727-fcaa-4378-9c98-835b4eeb97cd
+2017-11-08 13:58:20 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 13:58:36 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 14:06:51 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 14:06:51 INFO  Log1:33 - Login with Underwriter
+2017-11-08 14:07:48 INFO  Log1:33 - Click Login Button
+2017-11-08 14:07:48 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 14:08:00 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 14:08:00 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 14:08:00 INFO  Log1:33 - Click Search Button
+2017-11-08 14:08:02 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 14:08:02 INFO  Log1:33 - Click Second Search Button
+2017-11-08 14:08:05 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 14:08:05 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 14:08:05 INFO  Log1:33 - Get Popup Title
+2017-11-08 14:08:06 INFO  Log1:33 - close Popup window
+2017-11-08 14:08:06 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 14:08:06 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 14:08:06 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 14:08:20 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 14:14:59 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 14:14:59 INFO  Log1:33 - Login with Underwriter
+2017-11-08 14:15:50 INFO  Log1:33 - Click Login Button
+2017-11-08 14:15:50 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 14:15:51 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 14:15:51 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 14:15:51 INFO  Log1:33 - Click Search Button
+2017-11-08 14:15:54 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 14:15:54 INFO  Log1:33 - Click Second Search Button
+2017-11-08 14:15:56 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 14:15:57 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 14:15:57 INFO  Log1:33 - Get Popup Title
+2017-11-08 14:15:57 INFO  Log1:33 - close Popup window
+2017-11-08 14:15:57 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 14:15:58 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 14:15:58 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 14:16:04 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 14:16:15 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 14:16:22 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.8JBzo2BEqcKu, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=11924, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 4beaa033-91a0-4e17-979d-8065cf559c32
+2017-11-08 14:16:23 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 14:16:39 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 15:15:37 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 15:15:37 INFO  Log1:33 - Login with Underwriter
+2017-11-08 15:16:43 INFO  Log1:33 - Click Login Button
+2017-11-08 15:16:43 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 15:16:44 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 15:16:44 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 15:16:44 INFO  Log1:33 - Click Search Button
+2017-11-08 15:16:48 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 15:16:49 INFO  Log1:33 - Click Second Search Button
+2017-11-08 15:16:51 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:16:52 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 15:16:52 INFO  Log1:33 - Get Popup Title
+2017-11-08 15:16:53 INFO  Log1:33 - close Popup window
+2017-11-08 15:16:53 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:16:53 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 15:16:54 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 15:17:00 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:17:11 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 15:17:18 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.jFuvaBffQRZl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=1188, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 6fa95ebd-8e73-41a9-8b2d-1c5c3c28553d
+2017-11-08 15:17:18 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:18:29 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 15:18:30 INFO  Log1:33 - Login with Underwriter
+2017-11-08 15:19:29 INFO  Log1:33 - Click Login Button
+2017-11-08 15:19:29 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 15:19:29 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 15:19:29 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 15:19:30 INFO  Log1:33 - Click Search Button
+2017-11-08 15:19:33 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 15:19:33 INFO  Log1:33 - Click Second Search Button
+2017-11-08 15:19:36 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:19:36 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 15:19:36 INFO  Log1:33 - Get Popup Title
+2017-11-08 15:19:37 INFO  Log1:33 - close Popup window
+2017-11-08 15:19:37 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:19:38 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 15:19:38 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 15:19:44 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:19:57 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 15:20:03 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.aBv2KuKN1pOv, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=12244, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: fd5c89ae-ee0a-4565-9584-23ee20a0b742
+2017-11-08 15:20:04 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:20:20 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 15:21:53 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 15:21:53 INFO  Log1:33 - Login with Underwriter
+2017-11-08 15:22:48 INFO  Log1:33 - Click Login Button
+2017-11-08 15:22:48 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 15:22:48 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 15:22:48 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 15:22:48 INFO  Log1:33 - Click Search Button
+2017-11-08 15:22:53 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 15:22:53 INFO  Log1:33 - Click Second Search Button
+2017-11-08 15:22:55 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:22:55 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 15:22:55 INFO  Log1:33 - Get Popup Title
+2017-11-08 15:22:56 INFO  Log1:33 - close Popup window
+2017-11-08 15:22:57 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:22:57 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 15:22:57 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 15:23:03 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:23:16 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 15:23:22 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.Pl5HtUOFrjTF, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=11600, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 66ed0d5a-8241-4189-90a9-09cff7da935a
+2017-11-08 15:23:23 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 15:23:39 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 15:36:18 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 15:36:18 INFO  Log1:33 - Login with Underwriter
+2017-11-08 15:37:23 INFO  Log1:33 - Click Login Button
+2017-11-08 15:37:23 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 15:38:14 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 15:38:14 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 15:38:15 INFO  Log1:33 - Click Search Button
+2017-11-08 15:38:18 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 15:38:20 INFO  Log1:33 - Click Second Search Button
+2017-11-08 15:38:22 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:38:22 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 15:38:22 INFO  Log1:33 - Get Popup Title
+2017-11-08 15:38:23 INFO  Log1:33 - close Popup window
+2017-11-08 15:38:24 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 15:38:24 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 15:38:24 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 15:38:37 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 16:44:31 INFO  Log1:33 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 16:44:31 INFO  Log1:33 - Login with Underwriter
+2017-11-08 16:45:28 INFO  Log1:33 - Click Login Button
+2017-11-08 16:45:28 INFO  Log1:33 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 16:45:29 INFO  Log1:33 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 16:45:29 INFO  Log1:33 - Click Loan Overview Tab
+2017-11-08 16:45:29 INFO  Log1:33 - Click Search Button
+2017-11-08 16:45:32 INFO  Log1:33 - Enter Loan in Loan Number Search Box
+2017-11-08 16:45:32 INFO  Log1:33 - Click Second Search Button
+2017-11-08 16:45:34 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 16:45:35 INFO  Log1:33 - Click Create Checklist Button
+2017-11-08 16:45:35 INFO  Log1:33 - Get Popup Title
+2017-11-08 16:45:36 INFO  Log1:33 - close Popup window
+2017-11-08 16:45:36 INFO  Log1:33 - Select Loan in Loan Overview Tab
+2017-11-08 16:45:36 INFO  Log1:33 - clickViewLoanButton
+2017-11-08 16:45:36 INFO  Log1:33 - clickTasksTabinViewLoanPopup
+2017-11-08 16:45:43 INFO  Log1:33 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 16:45:57 INFO  Log1:33 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 16:46:03 ERROR Log1:42 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.nQLpdh36wy3V, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=9860, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 30d5b6b0-50ef-481a-aae1-f5c91ef099d0
+2017-11-08 16:46:03 INFO  Log1:33 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 16:46:19 INFO  Log1:33 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 16:58:27 INFO  Log1:34 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 16:58:27 INFO  Log1:34 - Login with Underwriter
+2017-11-08 16:59:32 INFO  Log1:34 - Click Login Button
+2017-11-08 16:59:32 INFO  Log1:34 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 16:59:32 INFO  Log1:34 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 16:59:32 INFO  Log1:34 - Click Loan Overview Tab
+2017-11-08 16:59:33 INFO  Log1:34 - Click Search Button
+2017-11-08 16:59:36 INFO  Log1:34 - Enter Loan in Loan Number Search Box
+2017-11-08 16:59:36 INFO  Log1:34 - Click Second Search Button
+2017-11-08 16:59:39 INFO  Log1:34 - Select Loan in Loan Overview Tab
+2017-11-08 16:59:39 INFO  Log1:34 - Click Create Checklist Button
+2017-11-08 16:59:39 INFO  Log1:34 - Get Popup Title
+2017-11-08 16:59:40 INFO  Log1:34 - close Popup window
+2017-11-08 16:59:40 INFO  Log1:34 - Select Loan in Loan Overview Tab
+2017-11-08 16:59:41 INFO  Log1:34 - clickViewLoanButton
+2017-11-08 16:59:41 INFO  Log1:34 - clickTasksTabinViewLoanPopup
+2017-11-08 16:59:47 INFO  Log1:34 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 17:00:00 INFO  Log1:34 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 17:00:07 ERROR Log1:44 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.yEQCObO8yqem, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=2268, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ecf35c58-48ff-44f5-8334-d14ebe070e24
+2017-11-08 17:00:07 INFO  Log1:34 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 17:00:23 INFO  Log1:34 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 17:34:49 INFO  Log1:34 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 17:34:49 INFO  Log1:34 - Login with Underwriter
+2017-11-08 17:35:54 INFO  Log1:34 - Click Login Button
+2017-11-08 17:35:54 INFO  Log1:34 - *************Ending VerifyLoginThroughUnderwriterUserRole Test
+2017-11-08 17:35:55 INFO  Log1:34 - **************Starting VerifyOpeningOfUWTasksForUnderwriter Test*****************
+2017-11-08 17:35:55 INFO  Log1:34 - Click Loan Overview Tab
+2017-11-08 17:35:55 INFO  Log1:34 - Click Search Button
+2017-11-08 17:35:59 INFO  Log1:34 - Enter Loan in Loan Number Search Box
+2017-11-08 17:35:59 INFO  Log1:34 - Click Second Search Button
+2017-11-08 17:36:01 INFO  Log1:34 - Select Loan in Loan Overview Tab
+2017-11-08 17:36:02 INFO  Log1:34 - Click Create Checklist Button
+2017-11-08 17:36:02 INFO  Log1:34 - Get Popup Title
+2017-11-08 17:36:03 INFO  Log1:34 - close Popup window
+2017-11-08 17:36:03 INFO  Log1:34 - Select Loan in Loan Overview Tab
+2017-11-08 17:36:03 INFO  Log1:34 - clickViewLoanButton
+2017-11-08 17:36:03 INFO  Log1:34 - clickTasksTabinViewLoanPopup
+2017-11-08 17:36:10 INFO  Log1:34 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 17:36:23 INFO  Log1:34 - **************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************
+2017-11-08 17:36:29 ERROR Log1:44 - Exception in VerifyCompletionOfUWTaskForUnderwriter Test Case org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '2LY89F2', ip: '10.32.74.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofile.KPmrBDZmNnEy, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=6.1, moz:processID=9096, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 5a16ee91-ac77-4396-b82a-ecd74c79b6f7
+2017-11-08 17:36:30 INFO  Log1:34 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
+2017-11-08 17:36:46 INFO  Log1:34 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test

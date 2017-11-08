@@ -24,7 +24,7 @@ import com.amplify.test.util.Log1;
 public class TC001_VerifyTasksForUnderwriter extends Functions {
 	public static Functions func;
 	public static boolean Result=false;
-	public String loanNo="5123456700200";
+	public String loanNo="5123456700376";
 	
 	Login login;
 	UnderwriterHomePage underwriterHomePage;
@@ -153,7 +153,7 @@ public class TC001_VerifyTasksForUnderwriter extends Functions {
 		}
 		
 	}
-	@Test(priority=3,dependsOnMethods="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter",enabled=true)
+	@Test(priority=3,enabled=true)
 	public void VerifyCompletionOfUWTaskForUnderwriter(){
 		try{
 		Log1.info("**************Starting VerifyCompletionOfUWTaskForUnderwriter Test*****************");
@@ -167,14 +167,12 @@ public class TC001_VerifyTasksForUnderwriter extends Functions {
 		Thread.sleep(2000);
 		underwriterChecklistReviewPage.SelectloanInTable();
 		underwriterChecklistReviewPage.clickPerformReviewButton();
-		underwriterChecklistReviewPage.clickFirstIssueRadioButton();
-		underwriterChecklistReviewPage.clickUpdateCommentLink();
-		underwriterChecklistReviewPage.sendTextInCommentTextBox("Test Comment");
-		underwriterChecklistReviewPage.clickSaveCommentTextBox();
+		underwriterChecklistReviewPage.clickFirstNoIssueRadioButton();
 		underwriterChecklistReviewPage.clickSecondNoIssueRadioButton();
 		underwriterChecklistReviewPage.clickThirdNoIssueRadioButton();
 		underwriterChecklistReviewPage.clickCompleteReviewButton();
 		underwriterChecklistReviewPage.clickYesButton();
+		underwriterChecklistReviewPage.clickOkButtonOnInfoPopup();
 		Log1.info("*************Ending VerifyCompletionOfUWTaskForUnderwriter Test");
 
 		}catch(Exception e){

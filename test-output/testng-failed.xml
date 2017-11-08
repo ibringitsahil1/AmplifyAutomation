@@ -10,7 +10,8 @@
       <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
         <methods>
           <include name="setUp"/>
-          <include name="VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter"/>
+          <include name="VerifyCompletionOfUWTaskForUnderwriter"/>
+          <include name="VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter"/>
         </methods>
       </class> <!-- com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter -->
     </classes>

@@ -21,6 +21,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.test.automation.uiAutomation.customListner.WebEventListener;
 
 public class Functions {
@@ -31,6 +33,9 @@ public class Functions {
 	
 	public WebEventListener eventListener;
 	public EventFiringWebDriver e_driver;
+	
+	public ExtentReports extentReports =new ExtentReports(System.getProperty("user.dir")+"\\index.html",true) ;
+	public static ExtentTest extentTest;
 	
 	public WebDriver getDriver() {
 		return driver;
@@ -51,7 +56,7 @@ public class Functions {
 		propertiesData.load(fis);
 		    }
 		
-		
+		//This Method Starts Browser and Redirects to url
 		public void LoadBrowser() throws IOException{	
 		String url=properties.getProperty("url");
 		String browserType=properties.getProperty("browser");
@@ -77,6 +82,7 @@ public class Functions {
 		driver.get(url);
 		
 		}
+		
 		public void getUrl(){
 			String url=properties.getProperty("url");
 			driver.get(url);
