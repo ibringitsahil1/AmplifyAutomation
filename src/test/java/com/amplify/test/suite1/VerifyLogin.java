@@ -1,4 +1,4 @@
-package com.amplify.test.suite1;
+/*package com.amplify.test.suite1;
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.amplify.test.functions.Functions;
+import com.amplify.test.baseTest.Functions;
 import com.amplify.test.pages.AdminHomePage;
 import com.amplify.test.pages.AdminLoanOverview;
 import com.amplify.test.pages.Login;
@@ -91,3 +91,4 @@ public class VerifyLogin {
 		
 	
 }
+*/

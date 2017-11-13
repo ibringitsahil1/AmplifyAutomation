@@ -2448,3 +2448,6 @@ Capabilities [{moz:profile=C:\Users\sahil.singh\AppData\Local\Temp\rust_mozprofi
 Session ID: 5a16ee91-ac77-4396-b82a-ecd74c79b6f7
 2017-11-08 17:36:30 INFO  Log1:34 - **************Starting VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test*****************
 2017-11-08 17:36:46 INFO  Log1:34 - *************Ending VerifyifClosedUWTasksPopulatesInMyTasksForUnderwriter Test
+2017-11-08 20:07:37 INFO  Log1:34 - **************Starting VerifyLoginThroughUnderwriterUserRole Test*****************
+2017-11-08 20:07:37 INFO  Log1:34 - Login with Underwriter
+2017-11-08 20:07:47 INFO  Log1:34 - **************Starting VerifyifOpenedUWTasksPopulatesInMyTasksForUnderwriter Test*****************

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.amplify.test.functions.Functions;
+import com.amplify.test.baseTest.Functions;
 
 public class UnderwriterChecklistReviewPage extends Functions{
 WebDriver driver;

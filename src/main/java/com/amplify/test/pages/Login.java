@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.amplify.test.functions.Functions;
+import com.amplify.test.baseTest.Functions;
 
 public class Login extends Functions{
 	WebDriver driver;

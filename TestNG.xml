@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="FirstSuite">
 	<listeners>
-	<listener class-name="com.test.automation.uiAutomation.customListner.Listener"></listener>
-	<listener class-name="com.test.automation.uiAutomation.customListner.RetryListener"></listener>
+	<listener class-name="com.amplify.test.customListener.Listener"></listener>
+	<listener class-name="com.amplify.test.customListener.RetryListener"></listener>
 	</listeners>
 	<test name="Regression Suite">
 		<classes>
@@ -17,9 +17,10 @@
 			
 			<!-- <class name="com.amplify.test.suite1.AddLoanTest">
 			</class> -->
-			<class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
-			</class>
-			
+			<!-- <class name="com.amplify.test.suite1.TC001_VerifyTasksForUnderwriter">
+			</class> -->
+			<class name="com.amplify.test.suite1.TC001_VerifyAddLoanFunctionality"/>
+			<class name="com.amplify.test.suite1.TC002_VerifyingFileAssignmentFunctionality"/>
 		</classes>
 	</test>
 

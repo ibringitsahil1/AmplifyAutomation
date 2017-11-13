@@ -3,7 +3,7 @@ package com.amplify.test.util;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 
-import com.amplify.test.functions.Functions;
+import com.amplify.test.baseTest.Functions;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -33,7 +33,7 @@ public class Log1 extends Functions {
 		public static  void info(String message) {
 			Log.info(message);
 			Reporter.log(message);
-			extentTest.log(LogStatus.INFO, message);
+			extentTest.log(LogStatus.INFO, message); //
 		}
 
 
