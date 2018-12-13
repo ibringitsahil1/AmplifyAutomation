@@ -34,7 +34,7 @@ public class VerifyLogin {
 		func.maxWindowFunc();
 			}
 	
-	//test opening of Login Page......
+	//test opening of Login Page......11
     @Test(description = "Test opening of Login Page")
 	public void TestCase_1() throws Exception{
 		try{
